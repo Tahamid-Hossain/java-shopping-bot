@@ -10,8 +10,8 @@ public class Main {
         );
         Page page = browser.newPage();
         page.navigate("https://amazon.ae");
-        page.getByPlaceholder("Search Amazon.ae").type("iPhone 15 pro max");
-        page.locator("id=nav-search-submit-button").click();
+        page.getByPlaceholder("Search Amazon.ae").type("phone");
+        // page.locator("id=nav-search-submit-button").click();
 
         
 
